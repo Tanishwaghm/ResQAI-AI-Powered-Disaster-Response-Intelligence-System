@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ResQAI — AI-Powered Disaster Response Intelligence System
 
 > **Author:** Tanishka Hemant Waghmare  
@@ -291,3 +292,8 @@ A: Flood, Earthquake, Fire, Cyclone, Landslide, Medical Emergency, Building Coll
 ---
 
 *Built by Tanishka Hemant Waghmare — AI & Data Science, B.Tech*
+=======
+# ResQAI
+
+AI-Powered Disaster Response & Emergency Intelligence System
+>>>>>>> a9074e35a76e71afe001adba1f5645733c001281
