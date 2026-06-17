@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Environment
+.env
+*.env
+
+# Data (don't commit vector DB or uploaded PDFs)
+backend/data/chroma_db/
+backend/data/pdfs/
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Vite
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db

@@ -1,0 +1,22 @@
+# ResQAI Backend Dependencies
+
+# Web Framework
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# LLM & AI
+groq==0.9.0
+langchain==0.2.5
+langchain-community==0.2.5
+sentence-transformers==3.0.1
+
+# Vector Database
+chromadb==0.5.3
+
+# PDF Processing
+pypdf==4.2.0
+
+# Utilities
+python-dotenv==1.0.1
+python-multipart==0.0.9
+pydantic==2.7.4
