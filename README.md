@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 # ResQAI — AI-Powered Disaster Response Intelligence System
 
-> **Author:** Tanishka Hemant Waghmare  
-> Final-Year AI & Data Science Project | LLM + RAG + Multi-Agent System
+>  Tanishka Hemant Waghmare
+>  AI & Data Science Project | LLM + RAG + Multi-Agent System
 
 ---
 
@@ -242,24 +242,7 @@ Built a full-stack multi-agent AI system for disaster response using RAG, LangCh
 
 ---
 
-## Interview Q&A
 
-**Q: What is RAG and why did you use it?**  
-A: RAG (Retrieval-Augmented Generation) combines semantic search over a vector database with LLM generation. I used it so ResQAI answers from verified emergency PDFs rather than hallucinating — critical for life-safety applications.
-
-**Q: How does the multi-agent routing work?**  
-A: The Coordinator Agent scores each query against keyword sets per agent. If scores are ambiguous, it falls back to an LLM routing call. The winning agent's specialized system prompt is then used for the final LLM call.
-
-**Q: How are confidence scores calculated?**  
-A: Based on the average cosine similarity score of retrieved chunks. No retrieved context → 30% (LLM only). Higher-relevance retrievals push toward 95%.
-
-**Q: How does the vector search work?**  
-A: PDFs are chunked with 1000-char size / 200-char overlap using LangChain's RecursiveCharacterTextSplitter, embedded with all-MiniLM-L6-v2 via Sentence Transformers, stored in ChromaDB, and retrieved via cosine similarity.
-
-**Q: What disaster types does ResQAI support?**  
-A: Flood, Earthquake, Fire, Cyclone, Landslide, Medical Emergency, Building Collapse, and Heat Wave.
-
----
 
 ## GitHub Repository
 
@@ -291,8 +274,7 @@ A: Flood, Earthquake, Fire, Cyclone, Landslide, Medical Emergency, Building Coll
 
 ---
 
-*Built by Tanishka Hemant Waghmare — AI & Data Science, B.Tech*
-=======
+*Built by Tanishka Hemant Waghmare — AI & Data Science, B.E*
 # ResQAI
 
 AI-Powered Disaster Response & Emergency Intelligence System
